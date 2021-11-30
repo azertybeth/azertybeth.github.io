@@ -11,3 +11,5 @@ figured out (by guessing) that I could create different html pages for parts of 
 originally had adapted an entire css code for a side navigation bar, but the usage license from the website wasn't clear enough for me to feel comfortable. instead, I'm going to try and recreate it from scratch using mozilla's open source css samples.
 
 mozilla's resources are sick also I am starting to grasp CSS and actually understand why things need to be certain ways. most of my code is entirely me at this point.
+
+experimenting with basic color scheme balacning in my css before going on to add much more.
