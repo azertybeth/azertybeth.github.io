@@ -1,13 +1,57 @@
+
+
+/* just sidebar things ----------------------- */
+
+.sidebar{
+  overflow-x: hidden;
+  background-color: rgb(50, 45, 50);
+  width: 150px;
+  height: 100%;
+  padding-left: 10px;
+  padding-top: 15px;
+  position: fixed;
+  border-radius: 0px 90px / 80px;
+}
+
+/* sidebar buttons */
+.sidebar a{
+  color: rgb(180, 180, 180);
+  text-decoration: none;
+  font-family: 'arial';
+  font-size: 25px;
+}
+
+.social{
+  padding: 60px 0px 30px 0px;
+}
+
+/* this id is for the social blurb */
+#ig{
+  font-size: 12px;
+  font-family: 'arial';
+  font-style: italic;
+}
+
+/* ------------------------------------------- */
+/* padding goes clockwise */
+
+.main{
+  padding-left: 200px;
+}
+
 h1{
+    padding-top: 20px;
     font-weight: 700;
     color: pink;
     font-family: 'arial';
     font-style: italic;
+    font-size: 50px
 }
 
 p{
   font-family: 'arial';
   color: white;
+  font-size: 25px
 }
 
 body{
