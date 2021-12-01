@@ -19,3 +19,5 @@ checked mozilla to learn how to add link hover color change for text.
 watched a video and learned how to write a .htaccess file in Apache to hide the .html extension of my pages in the URL bar.
 
 after reading some other people's code (mainly by analyzing professional websites) I realized that I could improve the readability of my code by using indents (not required for HTML to work, unlike python), so I did.
+
+COOL! you can set one dimension for image scaling to 100% and then change the other dimension and it will retain aspect ratio.

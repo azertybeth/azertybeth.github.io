@@ -70,6 +70,10 @@ h1{
   position: absolute;
 }
 
+#logo{
+  padding-left: 40px;
+  position: absolute;
+}
 
 body{
   background-color: rgb(220, 230, 245);
