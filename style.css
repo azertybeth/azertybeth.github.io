@@ -65,7 +65,7 @@ h1{
   font-weight: lighter;
   color: rgb(50, 50, 60);
   font-size: 25px;
-  position: fixed;
+  position: absolute;
 
 }
 
