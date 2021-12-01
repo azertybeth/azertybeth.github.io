@@ -8,7 +8,8 @@
   padding-left: 10px;
   padding-top: 15px;
   position: fixed;
-  border-radius: 0px 90px / 80px;
+  border-radius: 0px 90px 0px 0px;
+/*  border-radius: 0px 90px / 80px; */
   z-index: 9;
 }
 
@@ -63,12 +64,13 @@ h1{
   position: fixed;
 }
 
+/* top text box */
 #main_body_text{
   background-color: rgb(255, 190, 220);
   width: 60%;
   height: 50%;
   padding: 20px 20px 0px 40px;
-  border-radius: 50px;
+  border-radius: 50px 50px 0px 0px;
   font-family: 'arial';
   font-weight: lighter;
   color: rgb(50, 50, 60);
@@ -84,7 +86,7 @@ body{
   height: 60%;
   width: 100%;
   bottom: 0px;
-  top: 80%;
+  top: 60%;
   left: 8px;
   background-color: rgb(220, 230, 245);
   position: absolute;
@@ -95,12 +97,12 @@ body{
   width: 60%;
   height: 20%;
   padding: 20px 20px 0px 40px;
-  border-radius: 50px;
+  border-radius: 0px 0px 50px 50px;
   font-family: 'arial';
   font-weight: lighter;
   color: rgb(50, 50, 60);
   font-size: 25px;
   position: absolute;
-  bottom: -60px;
+  bottom: 150px;
   z-index: 10;
 }
