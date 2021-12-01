@@ -13,3 +13,5 @@ originally had adapted an entire css code for a side navigation bar, but the usa
 mozilla's resources are sick also I am starting to grasp CSS and actually understand why things need to be certain ways. most of my code is entirely me at this point.
 
 experimenting with basic color scheme balacning in my css before going on to add much more.
+
+checked mozilla to learn how to add link hover color change for text.
