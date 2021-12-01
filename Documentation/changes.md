@@ -15,3 +15,5 @@ mozilla's resources are sick also I am starting to grasp CSS and actually unders
 experimenting with basic color scheme balacning in my css before going on to add much more.
 
 checked mozilla to learn how to add link hover color change for text.
+
+watched a video and learned how to write a .htaccess file in Apache to hide the .html extension of my pages in the URL bar.
