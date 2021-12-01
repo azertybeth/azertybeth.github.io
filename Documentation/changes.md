@@ -12,7 +12,7 @@ originally had adapted an entire css code for a side navigation bar, but the usa
 
 mozilla's resources are sick also I am starting to grasp CSS and actually understand why things need to be certain ways. most of my code is entirely me at this point.
 
-experimenting with basic color scheme balacning in my css before going on to add much more.
+experimenting with basic color scheme balancing in my css before going on to add much more.
 
 checked mozilla to learn how to add link hover color change for text.
 
@@ -21,3 +21,5 @@ watched a video and learned how to write a .htaccess file in Apache to hide the 
 after reading some other people's code (mainly by analyzing professional websites) I realized that I could improve the readability of my code by using indents (not required for HTML to work, unlike python), so I did.
 
 COOL! you can set one dimension for image scaling to 100% and then change the other dimension and it will retain aspect ratio.
+
+so the thing is, I think there's a more efficient way to abstract out common CSS for each of my pages. HOWEVER I'm stubborn + I think it gives me the tiniest bit more flexibility if I keep separated CSS sheets.

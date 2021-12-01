@@ -1,0 +1,80 @@
+/* just sidebar things ----------------------- */
+
+.sidebar{
+  overflow-x: hidden;
+  background-color: rgb(50, 50, 60);
+  width: 150px;
+  height: 100%;
+  padding-left: 10px;
+  padding-top: 15px;
+  position: fixed;
+  border-radius: 0px 90px / 80px;
+}
+
+/* sidebar buttons */
+.sidebar a{
+  color: rgb(255, 190, 220);
+  text-decoration: none;
+  font-family: 'arial';
+  font-size: 25px;
+}
+
+.sidebar a:hover{
+  color: rgb(220, 230, 245);
+}
+
+.social{
+  padding: 60px 0px 30px 0px;
+}
+
+/* this id is for the social blurb */
+#ig{
+  font-size: 12px;
+  font-family: 'arial';
+  font-style: italic;
+  color: white;
+}
+
+/* ------------------------------------------- */
+/* padding goes clockwise */
+
+
+/* main is just to compensate for sidebar */
+.main{
+  padding-left: 200px;
+}
+
+h1{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-weight: 700;
+    color: rgb(50, 50, 60);
+    font-family: 'arial';
+    font-style: normal;
+    font-size: 50px;
+    text-decoration: none;
+    padding-bottom: 0px;
+    text-shadow: 0px 10px rgb(255, 190, 220);
+}
+
+#main_body_text{
+  background-color: rgb(255, 190, 220);
+  width: 60%;
+  height: 100%;
+  padding: 20px 20px 0px 40px;
+  border-radius: 50px;
+  font-family: 'arial';
+  font-weight: lighter;
+  color: rgb(50, 50, 60);
+  font-size: 25px;
+  position: absolute;
+}
+
+#logo{
+  padding-left: 40px;
+  position: absolute;
+}
+
+body{
+  background-color: rgb(220, 230, 245);
+}
