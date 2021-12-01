@@ -7,3 +7,5 @@ https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_image - for usin
 https://www.w3schools.com/html/html_filepaths.asp - I want certain assets organized by folders and I needed this tutorial for help with HTML filepaths.
 
 https://developer.mozilla.org/en-US/ - open source CSS snippets (primarily for constructing nav bar)
+
+https://www.youtube.com/watch?v=-6LyG9I-FPc&ab_channel=DaniKrossing - learned how to write an .htaccess file in Apache in order to mask page file extensions in the URL bar.
