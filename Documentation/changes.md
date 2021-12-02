@@ -27,3 +27,5 @@ so the thing is, I think there's a more efficient way to abstract out common CSS
 Fixed overflow horizontal scrolling issues associated with fixed position CSS elements.
 
 going to try and scale up the navigation bar.
+
+(NOTE TO SELF: having the text boxes exist under the "main body text" organizer greatly helps move them together)
