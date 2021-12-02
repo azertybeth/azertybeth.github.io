@@ -12,3 +12,5 @@ https://www.youtube.com/watch?v=-6LyG9I-FPc&ab_channel=DaniKrossing - learned ho
 
 (UPDATE: couldn't get this working after all, going to try just having all pages in root)
     ~~https://stackoverflow.com/questions/18973058/how-to-remove-folder-name-from-url-using-htaccess — Apache is still confusing to me and I don't think I can learn it all in time for the project so  I found an explanation for exactly what I was trying to do instead of parsing it out manually. (namely for hiding folder names in URLs.)~~
+
+https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll - trying the solution in this forum to prevent the side scrolling overflow for the fixed position elements.
