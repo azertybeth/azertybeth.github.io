@@ -23,3 +23,7 @@ after reading some other people's code (mainly by analyzing professional website
 COOL! you can set one dimension for image scaling to 100% and then change the other dimension and it will retain aspect ratio.
 
 so the thing is, I think there's a more efficient way to abstract out common CSS for each of my pages. HOWEVER I'm stubborn + I think it gives me the tiniest bit more flexibility if I keep separated CSS sheets.
+
+Fixed overflow horizontal scrolling issues associated with fixed position CSS elements.
+
+going to try and scale up the navigation bar.
