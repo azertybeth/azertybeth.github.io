@@ -14,7 +14,7 @@ html, body {
   padding-left: 10px;
   padding-top: 15px;
   position: fixed;
-  border-radius: 0px 90px 0px 0px;
+  border-radius: 0px 180px 0px 0px;
 /*  border-radius: 0px 90px / 80px; */
   z-index: 9;
 }
@@ -83,21 +83,8 @@ h1{
   font-weight: lighter;
   color: rgb(50, 50, 60);
   font-size: 25px;
+  left: 360px;
   position: fixed;
-}
-
-body{
-  background-color: rgb(220, 230, 245);
-}
-
-#bottom_bkg{
-  height: 60%;
-  width: 100%;
-  bottom: 0px;
-  top: 60%;
-  left: 8px;
-  background-color: rgb(220, 230, 245);
-  position: absolute;
 }
 
 #sub_body_text{
@@ -112,5 +99,20 @@ body{
   font-size: 25px;
   position: absolute;
   bottom: 150px;
+  left: 360px;
   z-index: 10;
+}
+
+body{
+  background-color: rgb(220, 230, 245);
+}
+
+#bottom_bkg{
+  height: 60%;
+  width: 100%;
+  bottom: 0px;
+  top: 60%;
+  left: 8px;
+  background-color: rgb(220, 230, 245);
+  position: absolute;
 }
