@@ -31,3 +31,5 @@ going to try and scale up the navigation bar.
 (NOTE TO SELF: having the text boxes exist under the "main body text" organizer greatly helps move them together)
 
 Having an issue where my logo and the scrolling blurb at the very bottom of the page are both rendering incorrectly when I open the page in a browser but are rendering just fine in the IDE preview window.
+
+I realized that the positioning for the blurb and the logo were lacking units, which the editor correctly assumed meant pixels, but apparently my browsers did not. Once I added the px unit it rendered correctly.
