@@ -7,8 +7,8 @@ html, body {
 /* just sidebar things -----------------------------------*/
 .sidebar{
   overflow-x: hidden;
-  background-color: rgb(50, 50, 60);
-  width: 300px;
+  background-color: rgb(50, 50, 75);
+  width: 350px;
   height: 100%;
   padding-left: 10px;
   padding-top: 15px;
@@ -26,24 +26,26 @@ html, body {
   font-size: 50px;
 }
 
+/* sidebar link highlight*/
 .sidebar a:hover{
   color: rgb(220, 230, 245);
 }
 
-.social{
-  padding: 90px 0px 0px 0px;
+#home{
+  margin-left: -1px;
 }
 
-/* this id is for the social blurb */
-#insta_blurb{
-  font-size: 15px;
-  font-family: 'arial';
-  font-style: italic;
-  font-weight: bolder;
-  color: white;
-  position: fixed;
-  left: 60px;
-  top: 275px;
+/* used to adjust only text part of
+page links */
+.nav_text{
+  left: 40px;
+  line-height: 20%;
+  position: sticky;
+}
+
+/* site logo */
+#logo{
+  top: 600px;
 }
 
 /* --------------------------------------------------------*/
@@ -52,11 +54,11 @@ html, body {
 
 /* main is just to compensate for sidebar */
 .main{
-  padding-left: 350px;
+  padding-left: 375px;
 }
 
 h1{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 30px;
     font-weight: 700;
     color: rgb(50, 50, 60);
@@ -69,35 +71,36 @@ h1{
 }
 
 #logo{
-  padding-left: 40px;
+  left: 40px;
   position: fixed;
 }
 
 /* text bubbles --------------------------------------- */
 #main_body_text{
   background-color: rgb(255, 190, 220);
-  width: 900px;
+  width: 60%;
   height: 50%;
   padding: 20px 20px 0px 40px;
-  border-radius: 25px 25px 5px 5px;
+  border-radius: 50px 50px 0px 0px;
   font-family: 'Helvetica';
-  font-weight: normal;
-  color: rgb(50, 50, 60);
-  font-size: 25px;
-  left: 360px;
+  font-weight: 100;
+  color: rgb(50, 50, 75);
+  font-size: 40px;
+  left: 380px;
   position: fixed;
 }
 
 #sub_body_textL{
   background-color: rgb(255, 190, 220);
-  width: 360px;
+  width: 40%;
   height: 170px;
   padding: 0px 0px 0px 25px;
   border-radius: 5px 5px 25px 25px;
   position: absolute;
   bottom: 210px;
-  left: 360px;
+  left: 380px;
   z-index: 10;
+
   /* text properties */
   font-family: 'Helvetica';
   font-weight: normal;
@@ -107,7 +110,7 @@ h1{
 
 #sub_body_textR{
   background-color: rgb(255, 190, 220);
-  width: 500px;
+  width: 25%;
   height: 350px;
   padding: 0px 20px 0px 40px;
   border-radius: 5px 5px 25px 25px;
@@ -121,14 +124,15 @@ h1{
   font-size: 25px;
   color: rgb(50, 50, 60);
 }
-/* textbox individual headers */
-
 /*----------------------------------------------*/
 
+/* draws in site bkg*/
 body{
   background-color: rgb(220, 230, 245);
 }
 
+/* invisible border
+that scrolls */
 #bottom_bkg{
   height: 60%;
   width: 100%;
@@ -136,5 +140,16 @@ body{
   top: 60%;
   left: 8px;
   background-color: rgb(220, 230, 245);
+  position: absolute;
+}
+
+/* thank you blurb */
+#blurb{
+  font-family: "Helvetica";
+  font-weight: bold;
+  color: rgb(50, 50, 75);
+  left: 390px;
+  bottom: 20px;
+  z-index: 11;
   position: absolute;
 }

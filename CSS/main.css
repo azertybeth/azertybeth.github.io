@@ -5,7 +5,6 @@ html, body {
 }
 
 /* just sidebar things ----------------------- */
-
 .sidebar{
   overflow-x: hidden;
   background-color: rgb(50, 50, 75);
@@ -15,7 +14,6 @@ html, body {
   padding-top: 15px;
   position: fixed;
   border-radius: 10px 180px 0px 0px;
-/*  border-radius: 0px 90px / 80px; */
   z-index: 9;
 }
 
@@ -28,31 +26,29 @@ html, body {
   font-size: 50px;
 }
 
+/* sidebar link highlight*/
 .sidebar a:hover{
   color: rgb(220, 230, 245);
 }
 
-.social{
-  padding: 60px 0px 30px 0px;
-}
-
+/* used to adjust only text part of
+page links */
 .nav_text{
   left: 50px;
   line-height: 20%;
   position: sticky;
 }
 
-/* this id is for the social blurb */
-#ig{
-  font-size: 15px;
-  font-family: 'arial';
-  font-style: italic;
-  font-weight: bolder;
-  color: white;
+#comms{
+  padding-left: 4px;
 }
 
+
+/* site logo */
 #logo{
   top: 600px;
+  left: 40px;
+  position: fixed;
 }
 
 /* ------------------------------------------- */
@@ -77,12 +73,8 @@ h1{
     text-shadow: 0px 10px rgb(255, 190, 220);
 }
 
-#logo{
-  left: 40px;
-  position: fixed;
-}
-
-/* top text box */
+/* text bubbles --------------------------------------- */
+/* top text bubble */
 #main_body_text{
   background-color: rgb(255, 190, 220);
   width: 60%;
@@ -118,11 +110,16 @@ h1{
   padding-left: 20px;
   position: absolute;
 }
+/*----------------------------------------------*/
 
+
+/* draws in site bkg*/
 body{
   background-color: rgb(220, 230, 245);
 }
 
+/* invisible border
+that scrolls */
 #bottom_bkg{
   height: 60%;
   width: 100%;
@@ -133,6 +130,7 @@ body{
   position: absolute;
 }
 
+/* thank you blurb */
 #blurb{
   font-family: "Helvetica";
   font-weight: bold;
