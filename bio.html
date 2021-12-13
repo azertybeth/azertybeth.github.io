@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8"/>
-  <title>bio — azertybeth</title>
+  <title>azertybeth</title>
 
   <!-- Side Bar -->
-  <!-- Insert HTML links where hashes-->
   <div class="sidebar">
-    <a href="https://azertybeth.github.io/">Home</a>
-      <br>
-    <a href="#">Projects</a>
-      <br>
-    <a href="#">Comissions</a>
-      <br>
-    <div class ="social"><a href="https://www.instagram.com/azertybeth/">
-      <img src="Images/social-icons/insta-glyph.png" alt="instagram_logo"
-        style=height:15px;width:15px></a>
-      <p id=ig>follow me on instagram!</p>
-        <br>
-    </div>
+    <a href="https://azertybeth.github.io/">
+      <img class="nav_glyphs" id="home" src="Images/Home.png" style=height:37px>
+      <span class="nav_text">Home</span>
+    </a>
+    <br>
+    <a href="bio">
+      <img class=nav_glyphs id=bio src="Images/Bio.png" style=height:30px>
+      <span class=nav_text>Bio</span>
+    </a>
+    <br>
+    <a href="portfolio">
+      <img class=nav_glyphs id=portfolio src="Images/Port.png" style=height:35px>
+      <span class=nav_text>Portfolio</span>
+    </a>
+    <br>
+    <a href="commissions">
+      <img class=nav_glyphs id=comms src="Images/Comms.png" style=height:35px>
+      <span class=nav_text>Comissions</span>
+    </a>
+    <img id=logo src="Images/logo.png" style=height:200px>
   </div>
 
-<!-- Main class exists to make room for sidebar -->
-  <div class="main">
-    <link rel="stylesheet" type="text/css" href="CSS/bio.css"/>
-    <body>
-      <h1>bio<img id=logo src="Images/logo_ver2.png" alt="logo" style=height:65px;width:100%px ></h1>
-      <div id=main_body_text>
-        <p>
-          </p>
-      </div>
-    </body>
+  <!-- Main class exists to make room for sidebar -->
+    <div class="main">
+      <link rel="stylesheet" type="text/css" href="CSS/main.css"/>
+      <body>
+        <h1>bio</h1>
+        <table>
+          <tbody>
+            <tr>
+              <td id=header_img_bio>
+                This is where a picture of me would go.
+              </td>
+              <td id=body_upper_bio>
+                I'm not ready to exist yet, but if I were to exist I'd exist in this text box.
+              </td>
+            </tr>
+            <tr>
+              <td id=body_lower_bio colspan="2">
+                The meat and potatoes of the bio. That's right. No vegetarian options. I'm so sorry.
+              </td>
+          </tbody>
+        </table>
+        <img id=drawing src="Images/drawing.png" style=height:1300px;>
+      </body>
+    </div>
+
+<!-- drawing in bottom background bar -->
+  <div id=bottom_bkg_port>
+    <span id=blurb> website design and layout by me. all rights reserved. thank you for visiting :,) </span>
   </div>
 </html>

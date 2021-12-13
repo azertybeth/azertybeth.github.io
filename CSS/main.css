@@ -95,6 +95,7 @@ h1{
   color: rgb(50, 50, 75);
 }
 
+
 #middle_body_text{
   background-color: rgb(255, 210, 180);
   width: 60%;
@@ -232,8 +233,32 @@ td {
     text-align: left;
     padding: 40px 20px 40px 40px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
+#header_img_bio{
+  background-color: rgb(255, 190, 220);
+  width: 300px;
+  height: 350px;
+  padding: 0px 20px 0px 40px;
+  /* text properties */
+  line-height: 120%;
+  font-family: 'Helvetica';
+  font-weight: 100;
+  font-size: 40px;
+  color: rgb(50, 50, 75);
+}
+
+#body_upper_bio{
+  background-color: rgb(255, 210, 180);
+}
+
+#body_lower_bio{
+  background-color: rgb(150, 150, 255);
+}
+
+
+/* album artworks for Portfolio go here */
 #album_1 img{
   height: 400px;
 }
