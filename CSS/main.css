@@ -200,15 +200,24 @@ body{
   background-color: rgb(220, 230, 245);
   position: absolute;
 }
+
+#bottom_bkg_port{
+  height: 35%;
+  width: 100%;
+  bottom: 0px;
+  top: 90%;
+  left: 8px;
+  position: absolute;
+}
 /* -----------------------------------------*/
 
 table{
+  max-width: 60%;
+  top: 151px;
   table-layout: fixed;
-  width: 60%;
   position: fixed;
   left: 360px;
-  border-spacing: 20px 0px;
-
+  border-spacing: 20px 20px;
   /* text properties */
   line-height: 120%;
   font-family: 'Helvetica';
@@ -220,10 +229,17 @@ table{
 td {
     background-color: rgb(255, 190, 220);
     border-radius: 50px;
-    height: auto;
     text-align: left;
     padding: 40px 20px 40px 40px;
+    overflow-x: hidden;
+}
 
+#album_1{
+  height: auto;
+}
+
+#album_1 img{
+  height: 400px;
 }
 
 /* thank you blurb */
