@@ -202,6 +202,29 @@ body{
 }
 /* -----------------------------------------*/
 
+table{
+  table-layout: fixed;
+  width: 60%;
+  position: fixed;
+  left: 360px;
+  border-spacing: 20px 0px;
+
+  /* text properties */
+  line-height: 120%;
+  font-family: 'Helvetica';
+  font-weight: 100;
+  font-size: 40px;
+  color: rgb(50, 50, 75);
+}
+
+td {
+    background-color: rgb(255, 190, 220);
+    border-radius: 50px;
+    height: auto;
+    text-align: left;
+    padding: 40px 20px 40px 40px;
+
+}
 
 /* thank you blurb */
 #blurb{

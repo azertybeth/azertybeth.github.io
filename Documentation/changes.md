@@ -41,3 +41,5 @@ After meeting with Rachel, I implemented the following changes based on her feed
 With the deadline for the project around the corner, I'm considering alternatives to the layout I had planned for the Comissions page. I had initially wanted to grasp a deeper understanding on how to take advantage of CSS box alignment and/or table model, but I may have to settle on an alternative since my confidence in grasping those new concepts in the next two days is low.
 
 I wanted to have a large transparent image on the highest z-index but doing so prevented the ability to click on a link underneath the transparent part of the image. After reading a stackexchange forum I learned that I could just add the string "pointer-events: none;" under the image's portion of my stylesheet and it ended up working how I wanted.
+
+After defaulting to an easier option with the Commissions page, I'm going to finally try and implement a table for my Portfolio page. Mozilla's archives have a simple HTML and CSS table code that is barebones and modifiable so I can fiddle around and understand what each string means without doing it from scratch.
