@@ -39,15 +39,19 @@ page links */
   position: sticky;
 }
 
+/* specific glyph adjustments */
 #comms{
   padding-left: 4px;
+}
+#home{
+  margin-left: -1px;
 }
 
 
 /* site logo */
 #logo{
   top: 600px;
-  left: 40px;
+  left: 67px;
   position: fixed;
 }
 
@@ -79,36 +83,85 @@ h1{
   background-color: rgb(255, 190, 220);
   width: 60%;
   height: 50%;
-  padding: 20px 20px 0px 40px;
+  padding: 0px 20px 0px 40px;
   border-radius: 50px 50px 0px 0px;
-  font-family: 'Helvetica';
-  font-weight: 100;
-  color: rgb(50, 50, 75);
-  font-size: 40px;
   left: 380px;
   position: fixed;
+  /* text properties */
+  line-height: 120%;
+  font-family: 'Helvetica';
+  font-weight: 100;
+  font-size: 40px;
+  color: rgb(50, 50, 75);
 }
 
-#sub_body_text a{
-  background-color: rgb(150, 150, 255);
+#middle_body_text{
+  background-color: rgb(255, 210, 180);
   width: 60%;
-  height: 10%;
-  padding: 20px 20px 0px 40px;
-  border-radius: 0px 0px 50px 50px;
+  height: 30%;
+  padding: 50px 20px 0px 40px;
+  border-radius: 50px 50px 50px 50px;
+  position: fixed;
+  bottom: 80px;
+  left: 380px;
+  z-index: 0;
+  /* text properties */
+  line-height: 40%;
+  font-family: 'Helvetica';
+  font-weight: 100;
+  font-size: 40px;
+  color: rgb(50, 50, 75);
+}
+
+#middle_body_text span{
+  font-weight: bold;
+}
+
+#sub_body_text_index a{
   font-family: 'Helvetica';
   font-weight: normal;
   text-decoration: none;
   color: rgb(220, 230, 245);
   font-size: 35px;
-  position: absolute;
+}
+
+#sub_body_text_index{
+  padding: 20px 20px 0px 40px;
+  background-color: rgb(150, 150, 255);
+  width: 60%;
+  height: 10%;
+  border-radius: 0px 0px 50px 50px;
   bottom: 290px;
   left: 380px;
+  position: absolute;
   z-index: 10;
 }
 
-#sub_body_text span{
+#sub_body_text_index span{
   padding-left: 20px;
   position: absolute;
+}
+
+#sub_body_text{
+  padding: 50px 20px 20px 40px;
+  background-color: rgb(150, 150, 255);
+  width: 60%;
+  height: 15%;
+  border-radius: 0px 0px 50px 50px;
+  bottom: 0px;
+  left: 380px;
+  position: absolute;
+  z-index: 10;
+  /* text properties */
+  line-height: 40%;
+  font-family: 'Helvetica';
+  font-weight: 100;
+  font-size: 40px;
+  color: rgb(50, 50, 75);
+}
+
+#sub_body_text span{
+  font-weight: bold;
 }
 /*----------------------------------------------*/
 
@@ -118,9 +171,13 @@ body{
   background-color: rgb(220, 230, 245);
 }
 
-/* invisible border
-that scrolls */
-#bottom_bkg{
+#drawing{
+  padding-left: 750px;
+}
+
+
+/* invisible border that scrolls ---------*/
+#bottom_bkg_index{
   height: 60%;
   width: 100%;
   bottom: 0px;
@@ -129,6 +186,18 @@ that scrolls */
   background-color: rgb(220, 230, 245);
   position: absolute;
 }
+
+#bottom_bkg_comms{
+  height: 35%;
+  width: 100%;
+  bottom: 0px;
+  top: 90%;
+  left: 8px;
+  background-color: rgb(220, 230, 245);
+  position: absolute;
+}
+/* -----------------------------------------*/
+
 
 /* thank you blurb */
 #blurb{
