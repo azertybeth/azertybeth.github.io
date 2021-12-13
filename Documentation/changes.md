@@ -39,3 +39,5 @@ Did some work today including drawing up a home glyph in illustrator. The one th
 After meeting with Rachel, I implemented the following changes based on her feedback: unified pages CSS into a single stylesheet, made navbar list universal across all pages with home button at the top, updated blurb at the bottom of the webpage, renamed Projects to Portfolio.
 
 With the deadline for the project around the corner, I'm considering alternatives to the layout I had planned for the Comissions page. I had initially wanted to grasp a deeper understanding on how to take advantage of CSS box alignment and/or table model, but I may have to settle on an alternative since my confidence in grasping those new concepts in the next two days is low.
+
+I wanted to have a large transparent image on the highest z-index but doing so prevented the ability to click on a link underneath the transparent part of the image. After reading a stackexchange forum I learned that I could just add the string "pointer-events: none;" under the image's portion of my stylesheet and it ended up working how I wanted.

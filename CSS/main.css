@@ -173,6 +173,10 @@ body{
 
 #drawing{
   padding-left: 750px;
+  overflow-y: clip;
+  position: fixed;
+  z-index: 20;
+  pointer-events: none;
 }
 
 
