@@ -213,7 +213,6 @@ body{
 
 table{
   max-width: 60%;
-  top: 151px;
   table-layout: fixed;
   position: fixed;
   left: 360px;
@@ -232,10 +231,6 @@ td {
     text-align: left;
     padding: 40px 20px 40px 40px;
     overflow-x: hidden;
-}
-
-#album_1{
-  height: auto;
 }
 
 #album_1 img{
